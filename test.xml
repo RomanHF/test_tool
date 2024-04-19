@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<PackageData xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdJwt>274</IdJwt>
+  <EntityAction>string</EntityAction>
+  <SuccessResultList>
+    <Entrant>
+      <IdObject>214</IdObject>
+      <Guid>ABCDEFGHIJK</Guid>
+      <Snils>38118993419</Snils>
+      <IdGender>8651</IdGender>
+      <Birthday>1979-11-13</Birthday>
+      <Birthplace>string</Birthplace>
+      <Phone>string</Phone>
+      <Email>string</Email>
+      <AvailabilityEduDoc>1</AvailabilityEduDoc>
+      <Surname>string</Surname>
+      <Name>string</Name>
+      <IdOksm>151</IdOksm>
+      <FreeEducationReason>
+        <IdFreeEducationReason>6222</IdFreeEducationReason>
+      </FreeEducationReason>
+      <AddressList>
+        <Address>
+          <IsRegistration>0</IsRegistration>
+          <FullAddr>string</FullAddr>
+          <IdRegion>7144</IdRegion>
+          <City>string</City>
+        </Address>
+      </AddressList>
+      <Photo>
+        <FileHash>string</FileHash>
+        <Fui>string</Fui>
+      </Photo>
+    </Entrant>
+  </SuccessResultList>
+</PackageData>
