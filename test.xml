@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
-<PackageData xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<PackageData >
   <IdJwt>274</IdJwt>
   <EntityAction>string</EntityAction>
   <SuccessResultList>
@@ -21,13 +21,31 @@
         <IdFreeEducationReason>6222</IdFreeEducationReason>
       </FreeEducationReason>
       <AddressList>
-        <Address>
-          <IsRegistration>0</IsRegistration>
-          <FullAddr>string</FullAddr>
-          <IdRegion>7144</IdRegion>
-          <City>string</City>
-        </Address>
-      </AddressList>
+                        <Address>
+                                <IsRegistration>true</IsRegistration>
+                                <FullAddr>Full addr1</FullAddr>
+                                <IdRegion>1</IdRegion>
+                                <City>Test city</City>
+                        </Address>
+                        <Address>
+                                <IsRegistration>false</IsRegistration>
+                                <FullAddr>Full addr2</FullAddr>
+                                <IdRegion>2</IdRegion>
+                                <City>Test city 2</City>
+                        </Address>
+                        <Address>
+                                <IsRegistration>false</IsRegistration>
+                                <FullAddr>Full addr3</FullAddr>
+                                <IdRegion>3</IdRegion>
+                                <City>test city 3</City>
+                        </Address>
+                        <Address>
+                                <IsRegistration>false</IsRegistration>
+                                <FullAddr>Full addr4</FullAddr>
+                                <IdRegion>4</IdRegion>
+                                <City>test city 4</City>
+                        </Address>
+                </AddressList>
       <Photo>
         <FileHash>string</FileHash>
         <Fui>string</Fui>

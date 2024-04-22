@@ -18,6 +18,7 @@ while True:
         response = httpx.post("http://127.0.0.1:5000/EntrantToXml",
                               headers=content_type_headers["json"],
                               json=content)
+
         print(response.text)
 
     if user_input == "2":
